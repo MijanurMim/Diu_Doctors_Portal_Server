@@ -134,13 +134,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`listening at http://localhost:${port}`);
 });
-
-// app.get('/users') => to get all the users or filtered users
-
-// app.get("/users/:id") => to get a specific user
-
-// app.post("/users") => to create a new user
-
-// app.put('/users/:id') => to update a specific user
-
-// app.delete("/users/:id") => to delete a specific user
